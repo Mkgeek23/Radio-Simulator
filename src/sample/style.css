@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "Digital-7";
+    src: url('digital-7.ttf');
+}
+
+.tlo{
+    -fx-background-image: url("steel.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+
+ToggleButton{
+    -fx-border-radius: 50%;
+    -fx-background-radius: 50%;
+    -fx-background-color: white;
+    -fx-border-color: grey;
+    -fx-padding-top: 12;
+    -fx-padding-bottom: 12;
+    -fx-text-align: center;
+}
+
+.floor:selected{
+    -fx-border-color: green;
+
+}
+
+.label-active{
+    -fx-text-fill: rgb(17, 137, 199);
+}
+
+.label-inactive{
+    -fx-text-fill: rgb(24, 25, 27);
+}
+
+Label{
+    -fx-background-color: black;
+    -fx-font-family: 'Digital-7';
+}
+
+#scn{
+    -fx-background-image: url("btn-scn.png");
+    -fx-pref-width: 35px;
+}
+
+#ams{
+    -fx-background-image: url("btn-ams.png");
+    -fx-pref-width: 35px;
+}
+
+#mu{
+    -fx-background-image: url("btn-mu.png");
+    -fx-pref-width: 35px;
+}
+
+.btnon{
+    -fx-background-image: url("btn-on.png");
+    -fx-pref-width: 57px;
+}
+
+.btnoff{
+    -fx-background-image: url("btn-off.png");
+    -fx-pref-width: 57px;
+}
+
+#mod{
+    -fx-background-image: url("btn-mod.png");
+    -fx-pref-width: 67px;
+}
+
+#btn1{
+    -fx-background-image: url("btn-1.png");
+    -fx-pref-width: 65px;
+}
+
+#btn2{
+    -fx-background-image: url("btn-2.png");
+    -fx-pref-width: 65px;
+}
+
+#btn3{
+    -fx-background-image: url("btn-3.png");
+    -fx-pref-width: 65px;
+}
+
+#btn4{
+    -fx-background-image: url("btn-4.png");
+    -fx-pref-width: 65px;
+}
+
+#btn5{
+    -fx-background-image: url("btn-5.png");
+    -fx-pref-width: 65px;
+}
+
+#btn6{
+    -fx-background-image: url("btn-6.png");
+    -fx-pref-width: 65px;
+}
+
+#btnprev{
+    -fx-background-image: url("btn-prev.png");
+    -fx-pref-width: 32px;
+}
+
+#btnnext{
+    -fx-background-image: url("btn-next.png");
+    -fx-pref-width: 32px;
+}
+
+#btnbnd{
+    -fx-background-image: url("btn-bnd.png");
+    -fx-pref-width: 56px;
+    -fx-pref-height: 24px;
+}
+
+#btndisp{
+    -fx-background-image: url("btn-disp.png");
+    -fx-pref-width: 56px;
+    -fx-pref-height: 10px;
+}
+
+.radioOn{
+    -fx-image: url("bgnd.png");
+}
+
+.radioOff{
+    -fx-image: url("bgnd-off.png");
+}
+
+Button{
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}

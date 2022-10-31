@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane alignment="center" hgap="10" prefHeight="212.0" prefWidth="342.0" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <ImageView fx:id="radio" fitHeight="342.0" fitWidth="1101.0" pickOnBounds="true" preserveRatio="true" styleClass="radioOff">
+         <image>
+            <Image url="@bgnd.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="d1" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="53.0" prefWidth="32.0" style="-fx-background-color: black;" styleClass="label-active" text="F" textFill="#1189c7">
+         <font>
+            <Font name="Digital-7 Italic" size="60.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="356.0" right="480.0" top="6.0" />
+         </GridPane.margin>
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </Label>
+      <Label fx:id="d2" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="53.0" prefWidth="40.0" style="-fx-background-color: black;" styleClass="label-active" text="M" textFill="#1189c7">
+         <font>
+            <Font name="Digital-7 Italic" size="60.0" />
+         </font>
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+         <GridPane.margin>
+            <Insets left="388.0" top="6.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="d3" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="53.0" prefWidth="40.0" style="-fx-background-color: black;" styleClass="label-inactive" text="1" textFill="#1189c7">
+         <font>
+            <Font name="Digital-7 Italic" size="60.0" />
+         </font>
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+         <GridPane.margin>
+            <Insets left="420.0" top="6.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="d4" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="53.0" prefWidth="40.0" styleClass="label-inactive" text="9" textFill="#1189c7">
+         <font>
+            <Font name="Digital-7 Italic" size="60.0" />
+         </font>
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+         <GridPane.margin>
+            <Insets left="452.0" top="6.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="d5" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="53.0" prefWidth="40.0" style="-fx-background-color: black;" styleClass="label-inactive" text="2" textFill="#1189c7">
+         <font>
+            <Font name="Digital-7 Italic" size="60.0" />
+         </font>
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+         <GridPane.margin>
+            <Insets left="484.0" top="6.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="d6" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="53.0" prefWidth="40.0" style="-fx-background-color: black;" styleClass="label-inactive" text="." textFill="#1189c7">
+         <font>
+            <Font name="Digital-7 Italic" size="60.0" />
+         </font>
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+         <GridPane.margin>
+            <Insets left="516.0" top="6.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="d7" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="53.0" prefWidth="40.0" style="-fx-background-color: black;" styleClass="label-inactive" text="6" textFill="#1189c7">
+         <font>
+            <Font name="Digital-7 Italic" size="60.0" />
+         </font>
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+         <GridPane.margin>
+            <Insets left="548.0" top="6.0" />
+         </GridPane.margin>
+      </Label>
+      <Label fx:id="d8" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="53.0" prefWidth="40.0" style="-fx-background-color: black;" styleClass="label-inactive" text="8" textFill="#18191b">
+         <font>
+            <Font name="Digital-7 Italic" size="60.0" />
+         </font>
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+         <GridPane.margin>
+            <Insets left="580.0" top="6.0" />
+         </GridPane.margin>
+      </Label>
+      <Button fx:id="scn" alignment="CENTER" mnemonicParsing="false" onAction="#scnClick" prefHeight="38.0" prefWidth="35.0">
+         <GridPane.margin>
+            <Insets left="395.0" top="180.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="ams" alignment="CENTER" mnemonicParsing="false" onAction="#amsClick" prefHeight="38.0" prefWidth="35.0">
+         <GridPane.margin>
+            <Insets left="571.0" top="180.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="mu" alignment="CENTER" mnemonicParsing="false" onAction="#muClick" prefHeight="38.0" prefWidth="35.0">
+         <GridPane.margin>
+            <Insets left="748.0" top="180.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="onoff" alignment="CENTER" mnemonicParsing="false" onAction="#onoffClick" prefHeight="42.0" prefWidth="57.0" styleClass="btnon">
+         <GridPane.margin>
+            <Insets left="73.0" top="196.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="mod" alignment="CENTER" mnemonicParsing="false" onAction="#modClick" prefHeight="42.0" prefWidth="67.0">
+         <GridPane.margin>
+            <Insets left="255.0" top="196.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="btn1" alignment="CENTER" mnemonicParsing="false" onMousePressed="#btnPressed" onMouseReleased="#btnReleased" prefHeight="42.0" prefWidth="65.0">
+         <GridPane.margin>
+            <Insets left="327.0" top="196.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="btn2" alignment="CENTER" mnemonicParsing="false" onMousePressed="#btnPressed" onMouseReleased="#btnReleased" prefHeight="42.0" prefWidth="65.0">
+         <GridPane.margin>
+            <Insets left="433.0" top="196.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="btn3" alignment="CENTER" mnemonicParsing="false" onMousePressed="#btnPressed" onMouseReleased="#btnReleased" prefHeight="42.0" prefWidth="65.0">
+         <GridPane.margin>
+            <Insets left="503.0" top="196.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="btn4" alignment="CENTER" mnemonicParsing="false" onMousePressed="#btnPressed" onMouseReleased="#btnReleased" prefHeight="42.0" prefWidth="65.0">
+         <GridPane.margin>
+            <Insets left="608.0" top="196.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="btn5" alignment="CENTER" mnemonicParsing="false" onMousePressed="#btnPressed" onMouseReleased="#btnReleased" prefHeight="42.0" prefWidth="65.0">
+         <GridPane.margin>
+            <Insets left="680.0" top="196.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="btn6" alignment="CENTER" mnemonicParsing="false" onMousePressed="#btnPressed" onMouseReleased="#btnReleased" prefHeight="42.0" prefWidth="65.0">
+         <GridPane.margin>
+            <Insets left="786.0" top="196.0" />
+         </GridPane.margin>
+      </Button>
+      <ImageView fx:id="knob" fitHeight="150.0" fitWidth="200.0" onMouseDragged="#mouseDraggedKnob" onMousePressed="#mousePressKnob" onMouseReleased="#mouseReleaseKnob" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@knob.png" />
+         </image>
+         <GridPane.margin>
+            <Insets left="119.0" top="44.0" />
+         </GridPane.margin>
+      </ImageView>
+      <Button fx:id="btnprev" alignment="CENTER" mnemonicParsing="false" onAction="#prevClick" prefHeight="44.0" prefWidth="32.0" styleClass="btnon">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="835.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="btnnext" alignment="CENTER" mnemonicParsing="false" onAction="#nextClick" prefHeight="44.0" prefWidth="32.0" styleClass="btnon">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="974.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="btnbnd" alignment="CENTER" maxHeight="24.0" maxWidth="56.0" minHeight="24.0" minWidth="56.0" mnemonicParsing="false" onAction="#bndClick" prefHeight="24.0" prefWidth="56.0" styleClass="btnon">
+         <GridPane.margin>
+            <Insets bottom="52.0" left="892.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="btndisp" alignment="CENTER" maxHeight="24.0" maxWidth="56.0" minHeight="24.0" minWidth="56.0" mnemonicParsing="false" onAction="#dispClick" prefHeight="24.0" prefWidth="56.0" styleClass="btnon">
+         <GridPane.margin>
+            <Insets left="892.0" top="44.0" />
+         </GridPane.margin>
+      </Button>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+</GridPane>
